@@ -1,7 +1,7 @@
 # Hi, I'm Zachary-Fegan
 
 ## About Me
-Currently taking CSC-113 AI Fundamentals and learning to collaborate with AI tools!
+Currently taking CSC-134 AI Fundamentals and learning to collaborate with AI tools!
 
 ## My Foo
 I love to play video games, make sketches, and I love cars as well (mostly sports, super, and drift cars)
