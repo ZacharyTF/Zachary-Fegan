@@ -12,7 +12,7 @@ I love to play video games, make sketches, and I love cars as well (mostly sport
 - Building my first AI assistants.
 
 ## Fun Fact
- I actually have ADD, which helps me multitask with different programming projects. 
+ I actually have ADHD, which helps me multitask with different programming projects. 
 
 ## Find Me
 - Right here on GitHub!
