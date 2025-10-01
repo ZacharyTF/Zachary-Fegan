@@ -38,5 +38,21 @@ int main() {
     if (total == 7) {
         cout << "Lucky seven! You win!" << endl;
     }
+    else if (total == 11) {
+        cout << "Eleven is a winner!" << endl;
+    }
+    else if (total == 2) {
+        cout << "Snake eyes! Too bad, you lose." << endl;
+    }
+    else if (total == 3) {
+        cout << "Sorry, three is unlucky, you lose." << endl;
+    }
+    else if (total == 12) {
+        cout << "Boxcars! Sorry, you lost." << endl;
+    }
+    else {
+        // anything else
+        cout << "Your point is " << total << "but we'll do that later" << endl;
+    }
     return 0;
 }
