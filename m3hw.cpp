@@ -32,7 +32,29 @@ int main() {
     // -------------------------------
     // Question 2: Receipt Calculator
     // -------------------------------
-    
+    cout << "\nQuestion 2: Receipt Calculator" << endl;
+    double mealPrice, mealTax, mealTotal;
+    double mealTip = 0.0;
+    int orderType;
+
+    cout << "Enter the price of your meal: ";
+    cin >> mealPrice;
+
+    cout << "Enter 1 for dine-in, 2 for takeaway: ";
+    cin >> orderType;
+
+    mealTax = mealPrice * 0.07;
+    if (orderType == 1) {
+        mealTip = mealPrice * 0.15;
+    }
+
+    mealTotal = mealPrice + mealTax + mealTip;
+
+    cout << "Receipt:" << endl;
+    cout << "Meal: $" << mealPrice << endl;
+    cout << "Tax: $" << mealTax << endl;
+    cout << "Tip: $" << mealTip << endl;
+    cout << "Total: $" << mealTotal << endl;
     // -------------------------------
     // Question 3: Choose Your Adventure
     // -------------------------------
