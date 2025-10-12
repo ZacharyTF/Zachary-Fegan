@@ -80,6 +80,17 @@ int main() {
     cout << "\nQuestion 4: Math Practice" << endl;
     srand(time(0));
     int num1 = rand() % 10;
+    int num2 = rand() % 10;
+    int userAnswer;
+
+    cout << "What is " << num1 << " plus " << num2 << "? ";
+    cin >> userAnswer;
+
+    if (userAnswer == num1 + num2) {
+        cout << "Correct!" << endl;
+    } else {
+        cout << "Incorrect. The correct answer was " << num1 + num2 << "." << endl;
+    }
     
     return 0;
 }
