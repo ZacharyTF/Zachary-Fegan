@@ -58,10 +58,28 @@ int main() {
     // -------------------------------
     // Question 3: Choose Your Adventure
     // -------------------------------
+    cout << "\nQuestion 3: Choose Your Own Adventure" << endl;
+    string pathChoice, actionChoice;
+    cout << "You're in a dark cave. Do you go 'left' or 'right'? ";
+    cin >> pathChoice;
 
+    if (pathChoice == "left") {
+        cout << "You encounter a sleeping dragon. Do you 'sneak' or 'attack'? ";
+        cin >> actionChoice;
+        if (actionChoice == "sneak") {
+            cout << "You tiptoe past the dragon and escape. Victory!" << endl;
+        } else {
+            cout << "The dragon wakes up and roasts you. Defeat!" << endl;
+        }
+    } else {
+        cout << "You fall into a pit. Game over." << endl;
+    }
     // -------------------------------
     // Question 4: Math Practice
     // -------------------------------
-
+    cout << "\nQuestion 4: Math Practice" << endl;
+    srand(time(0));
+    int num1 = rand() % 10;
+    
     return 0;
 }
